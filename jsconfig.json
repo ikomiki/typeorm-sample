@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6"
+  },
+  "include": ["jest.config.js", "jest.preset.js"],
+  "exclude": ["node_modules"]
+}
