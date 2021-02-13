@@ -19,7 +19,8 @@
     "typeorm": "0.2.31"
   },
   "scripts": {
-    "serve:db": "dockerk-compose up -d",
+    "serve:db": "docker-compose up -d",
+    "serve:db:amd": "docker-compose -f docker-compose-amd.yml up -d",
     "start": "ts-node src/index.ts",
     "start:sample1": "ts-node sample/sample1-simple-entity/app.ts",
     "start:sample2": "ts-node sample/sample2-one-to-one/app.ts",
